@@ -1,28 +1,28 @@
 // Custom French Moment.js Locales
 // Based on: https://github.com/moment/moment/blob/develop/locale/fr.js
 
-moment.locale('fr', {
-  months : 'janvier_février_mars_avril_mai_juin_juillet_août_septembre_octobre_novembre_décembre'.split('_'),
-  monthsShort : 'janv._févr._mars_avr._mai_juin_juil._août_sept._oct._nov._déc.'.split('_'),
+moment.locale('hu', {
+  months : 'január_február_március_április_május_június_július_augusztus_szeptember_október_november_december'.split('_'),
+  monthsShort : 'jan._feb._márc._ápr._máj._jún._júl._aug._szept._okt._nov._dec.'.split('_'),
   monthsParseExact : true,
-  weekdays : 'dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi'.split('_'),
-  weekdaysShort : 'dim._lun._mar._mer._jeu._ven._sam.'.split('_'),
-  weekdaysMin : 'Di_Lu_Ma_Me_Je_Ve_Sa'.split('_'),
+  weekdays : 'vasárnap_hétfő_kedd_szerda_csütörtök_péntek_szombat'.split('_'),
+  weekdaysShort : 'vas._hét._kedd_szer._csüt._pén._szom.'.split('_'),
+  weekdaysMin : 'V_H_K_Sze_CS_P_Szo'.split('_'),
   weekdaysParseExact : true,
   longDateFormat : {
     LT : 'HH:mm',
     LTS : 'HH:mm:ss',
-    L : 'DD/MM/YYYY', // Swiss French uses DD.MM.YYYY. Canadian French uses YYYY-MM-DD.
-    LL : 'D MMMM YYYY',
-    LLL : 'D MMMM YYYY HH:mm',
-    LLLL : 'dddd D MMMM YYYY HH:mm'
+    L : 'YYYY/MM/DD',
+    LL : 'YYYY MMMM D',
+    LLL : 'YYYY MMMM D HH:mm',
+    LLLL : 'YYYY MMMM D dddd HH:mm'
   },
   calendar : {
-    sameDay : '[Aujourd’hui à] LT',
-    nextDay : '[Demain à] LT',
+    sameDay : '[Ma] LT',
+    nextDay : '[Holnap] LT',
     nextWeek : 'dddd [à] LT',
-    lastDay : '[Hier à] LT',
-    lastWeek : 'dddd [dernier à] LT',
+    lastDay : '[Tegnap] LT',
+    lastWeek : 'dddd [utoljára] LT',
     sameElse : 'L'
   },
   relativeTime : {
