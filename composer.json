@@ -4,7 +4,7 @@
     "description": "Hungarian language pack for Flarum.",
     "homepage": "https://github.com/milescellar/flarum-ext-french",
     "keywords": ["locale"],
-    "license": "MIT",
+    "license": "GPL3.0",
     "authors": [
         {
             "name": "Kiss Attila",
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/milescellar/flarum-ext-french/issues",
-        "source": "https://github.com/milescellar/flarum-ext-french",
+        "issues": "https://github.com/manaszon/flarum-ext-hungarian/issues",
+        "source": "https://github.com/manaszon/flarum-ext-hungarian",
         "forum": "https://discuss.flarum.org/d/615-french-language-pack"
     },
     "require": {
