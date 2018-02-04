@@ -2,7 +2,7 @@
     "name": "manaszon/flarum-ext-hungarian",
     "type": "flarum-extension",
     "description": "Hungarian language pack for Flarum.",
-    "homepage": "https://github.com/milescellar/flarum-ext-french",
+    "homepage": "https://github.com/manaszon/flarum-ext-hungarian",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
