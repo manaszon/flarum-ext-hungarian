@@ -3,12 +3,12 @@
     "type": "flarum-extension",
     "description": "Hungarian language pack for Flarum.",
     "homepage": "https://github.com/manaszon/flarum-ext-hungarian",
-    "keywords": ["locale"],
+    "keywords": ["locale", "flarum", "hungarian"],
     "license": "MIT",
     "authors": [
         {
             "name": "Kiss Attila",
-            "email": "notpublic@h.nn"
+            "email": "kissattila97@gmail.com"
         }
     ],
     "support": {
