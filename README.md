@@ -1,4 +1,26 @@
-# flarum-ext-hungarian
-Hungarian language pack for Flarum forum software.
+# Hungarian Language Pack for Flarum
+![Flarum Logo with flag](https://i.cubeupload.com/3ocEzz.png)
 
-Under development.
+Hungarian language pack for Flarum forum software (and for its extensions).
+
+## Informations
+The pack includes translated files for the core software and for the following extensions:
+- Approval  _(0.1.0 Beta 7)_
+- Flags _(0.1.0 Beta 7)_
+- Likes _(0.1.0 Beta 6)_
+- Lock _(0.1.0 Beta 7)_
+- Mentions _(0.1.0 Beta 7)_
+- Sticky _(0.1.0 Beta 7)_
+- Subscriptions _(0.1.0 Beta 6)_
+- Suspend _(0.1.0 Beta 7)_
+- Tags _(0.1.0 Beta 7)_
+
+## Installation
+To install this language pack to your Flarum, you will need [Composer](https://getcomposer.org/). Run the following command in the location where your Flarum is installed:
+```
+-- soon --
+```
+
+## Other
+Thanks to [Moment.js](https://github.com/moment/moment) for the `locale/config.js` file.<br>
+**Note:** This pack is under development.
