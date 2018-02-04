@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Files and directories with this attribute won't be added to archive files
+.gitattributes     export-ignore
+README.md          export-ignore
