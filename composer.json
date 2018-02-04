@@ -35,6 +35,5 @@
             "code": "hu",
             "title": "Magyar"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
