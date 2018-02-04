@@ -4,7 +4,7 @@
     "description": "Hungarian language pack for Flarum.",
     "homepage": "https://github.com/milescellar/flarum-ext-french",
     "keywords": ["locale"],
-    "license": "GPL3.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Kiss Attila",
