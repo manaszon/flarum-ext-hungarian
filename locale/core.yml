@@ -467,7 +467,7 @@ core:
       body: |
         Helló, {username}!
 
-        Valaki (remélhetőleg Te!) regisztrált a fórumunkra ({forum}) ezzel az email-címmel..
+        Valaki (remélhetőleg Te!) regisztrált a fórumunkra ({forum}) ezzel az email-címmel.
 
         Ha Te voltál az, akkor csak kattints az alábbi linkre és a felhasználód aktiválva lesz:
         {url}
