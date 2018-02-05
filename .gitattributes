@@ -3,4 +3,5 @@
 
 # Files and directories with this attribute won't be added to archive files
 .gitattributes     export-ignore
+CHANGELOG.md       export-ignore
 README.md          export-ignore
