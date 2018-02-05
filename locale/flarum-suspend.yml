@@ -9,25 +9,25 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Suspendre les utilisateurs
+      suspend_users_label: Felhasználó felfüggesztése
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Suspendre indéfiniment
-      limited_time_label: Suspendre temporairement…
-      limited_time_days_text: " jour(s)"
-      not_suspended_label: Non suspendu
-      status_heading: Statut de la suspension
-      submit_button: => core.ref.okay
-      title: "Suspendre {username}"
+      indefinitely_label: Felfüggesztés határozatlan ideig
+      limited_time_label: Felfüggesztés meghatározott ideig...
+      limited_time_days_text: " napra"
+      not_suspended_label: Nincs felfüggesztés
+      status_heading: Felfüggesztés állapota
+      submit_button: => core.ref.save_changes
+      title: "{username} felfüggesztése"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Suspendu
+      suspended_tooltip: Felfüggesztve
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Suspendre
+      suspend_button: Felfüggesztés

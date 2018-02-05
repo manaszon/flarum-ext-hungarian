@@ -13,82 +13,82 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Couleur
-      delete_tag_button: Supprimer l’étiquette
-      delete_tag_confirmation: "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées."
-      description_label: Description
-      hide_label: Masquer de la liste de discussions
+      color_label: Szín
+      delete_tag_button: Tag törlése
+      delete_tag_confirmation: "Biztosan törölni szeretnéd ezt a taget? A témák amelyek használták ezt a taget NEM fognak törlődni."
+      description_label: Leírás
+      hide_label: Elrejtés az 'Összes téma' panelről
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Identifiant
-      submit_button: => core.ref.okay
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Gérez la liste des étiquettes disponibles pour organiser les discussions.
+      tags_text: Itt tudod kezelni a tageket, hogy átlátható és strukturáltak legyenek a témák.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Autoriser la modification des étiquettes
-      restrict_by_tag_heading: Restreindre par étiquette
-      tag_discussions_label: Ajouter des étiquettes aux discussions
+      allow_edit_tags_label: Tagek szerkesztése
+      restrict_by_tag_heading: Korlátozás tag által
+      tag_discussions_label: Tag-témák
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " à "
-      required_primary_heading: Limite du nombre d’étiquettes primaires
-      required_primary_text: Saisissez le nombre minimal et maximal d’étiquettes primaires qui peuvent être ajoutées à une discussion.
-      required_secondary_heading: Limite du nombre d’étiquettes secondaires
-      required_secondary_text: Saisissez le nombre minimal et maximal d’étiquettes secondaires qui peuvent être ajoutées à une discussion.
-      title: Paramètres des étiquettes
+      range_separator_text: " - "
+      required_primary_heading: Szükséges elsődleges tagek száma
+      required_primary_text: Add meg az elsődleges tagek minimális és maximális számát, amelyet egy témához lehessen adni.
+      required_secondary_heading: Szükséges másodlagos tagek száma
+      required_secondary_text: Add meg az másodlagos tagek minimális és maximális számát, amelyet egy témához lehessen adni.
+      title: Tag-beállítások
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Les étiquettes permettent de catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories, elles peuvent être disposées en une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hierarchisées, ni ordonnées, mais peuvent êtres utilisées comme des catégories mineures."
+      about_tags_text: "A tagek a témák kategorizálására használhatóak. Az elsődleges tagek hasonlóak, mint a hagyományos fórumkategóriák: kétszintes hierarchiába rendezhetőek. A másodlagos tagek nem rendelkeznek hierarchiával, mikro-kategorizálásra használhatóak."
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Étiquettes primaires
-      secondary_heading: Étiquettes secondaires
-      settings_button: Paramètres
+      primary_heading: Elsődleges tagek
+      secondary_heading: Másodlagos tagek
+      settings_button: Beállítások
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Sélectionnez une étiquette primaire|Sélectionnez {count} étiquettes primaires"
-      choose_secondary_placeholder: "Sélectionnez une étiquette secondaire|Sélectionnez {count} étiquettes secondaires"
-      edit_title: "Modifiez les étiquettes de {title}"
+      choose_primary_placeholder: "Válassz egy elsődleges taget|Válassz {count} elsődleges taget"
+      choose_secondary_placeholder: "Válassz még egy taget|Válassz {count} további taget"
+      edit_title: "Tagek módosítása - {title}"
       submit_button: => core.ref.okay
-      title: Sélectionnez les étiquettes de votre discussion
+      title: Válassz tageket a témádhoz
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Sélectionnez des étiquettes
+      choose_tags_link: Válassz tageket
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Modifier les étiquettes
+      edit_tags_button: Tagek szerkesztése
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: Plus…
+      more_link: Több...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Sans étiquette
+      untagged_link: Címkétlen
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} a ajouté {tagsAdded}."
-      added_and_removed_tags_text: "{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}."
-      removed_tags_text: "{username} a supprimé {tagsRemoved}."
-      tags_text: "l’étiquette {tags}|les étiquettes {tags}"
+      added_tags_text: "{username} hozzáadta a {tagsAdded}."
+      added_and_removed_tags_text: "{username} hozzáadta a {tagsAdded} és eltávolította a {tagsRemoved}."
+      removed_tags_text: "{username} eltávolította a {tagsRemoved}."
+      tags_text: "{tags} taget|{tags} tageket"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Supprimée
+    deleted_tag_text: Törölve
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Créer une étiquette
-    name: Nom
-    tags: Étiquettes
+    create_tag: Tag létrehozása
+    name: Név
+    tags: Tagek

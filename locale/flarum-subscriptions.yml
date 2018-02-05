@@ -15,33 +15,33 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Se désabonner
-      unignore_button: Ne plus ignorer
+      unfollow_button: Leiratkozás
+      unignore_button: Mellőzés feloldása
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      following_link: Abonnements
+      following_link: => flarum-subscriptions.ref.following
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} a publié un message"
+      new_post_text: "{username} posztolta"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Suivre automatiquement les discussions auxquelles j’ai répondu
-      notify_new_post_label: Quelqu’un publie dans une discussion que je suis
+      follow_after_reply_label: Automatikusan kövesse azon témákat, amelyekhez hozzászóltam.
+      notify_new_post_label: Új hozzászólás érkezése követett témában
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      following_button: => flarum-subscriptions.ref.following
-      following_text: M’envoyer une notification lorsqu’une réponse est publiée.
-      ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Ne jamais m’envoyer de notification. Masquer de la liste de discussions.
-      not_following_button: Non abonné
-      not_following_text: "Ne m’envoyer une notification que lorsque je suis @mentionné."
-      notify_alert_tooltip: Recevoir une notification sur le forum lorsque de nouveaux messages sont publiés
-      notify_email_tooltip: Recevoir un courriel lorsque de nouveaux messages sont publiés
+      following_button: Követem
+      following_text: Értesítés minden válasznál.
+      ignoring_button: Mellőzöm
+      ignoring_text: Nincs értesítés. Téma elrejtése.
+      not_following_button: Nem követem
+      not_following_text: "Értesítés csak elítésnél. @felhasznalonev."
+      notify_alert_tooltip: Új hozzászólás esetén fórum-értesítést kapsz.
+      notify_email_tooltip: Új hozzászólás esetén értesítést kapsz emailben.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Suivre
-    following: Abonné
-    ignoring: Ignorée
+    follow: Követés
+    following: Követések
+    ignoring: Mellőzés
