@@ -33,7 +33,7 @@ flarum-tags:
     permissions:
       allow_edit_tags_label: Tagek szerkesztése
       restrict_by_tag_heading: Korlátozás tag által
-      tag_discussions_label: Tag-témák
+      tag_discussions_label: Témák tagelése
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
