@@ -23,7 +23,7 @@ The pack includes translated files for the core software and for the following e
 ## Installation
 To install this language pack to your Flarum, you will need [Composer](https://getcomposer.org/). Run the following command in the location where your Flarum is installed:
 ```
--- soon --
+composer require manaszon/flarum-ext-hungarian
 ```
 
 ## Other
