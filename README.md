@@ -18,6 +18,7 @@ The pack includes translated files for the core software and for the following e
 - FaceBook Login _(0.1.0 Beta 6)_
 - GitHub Login _(0.1.0 Beta 6)_
 - Twitter Login _(0.1.0 Beta 6)_
+- Pusher _(0.1.0 Beta 6)_
 
 ## Installation
 To install this language pack to your Flarum, you will need [Composer](https://getcomposer.org/). Run the following command in the location where your Flarum is installed:
