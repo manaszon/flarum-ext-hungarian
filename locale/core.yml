@@ -76,8 +76,8 @@ core:
       icon_label: Ikon
       icon_text: "Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fa-</code> prefix <em>nélkül</em>."
       name_label: Név
-      plural_placeholder: Többesszám (pl.: Moderátorok)
-      singular_placeholder: Egyesszám (pl.: Moderátor)
+      plural_placeholder: Többesszám (pl.":" Moderátorok)
+      singular_placeholder: Egyesszám (pl.":" Moderátor)
       submit_button: => core.ref.save_changes
       title: Csoport létrehozása
 
