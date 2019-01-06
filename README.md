@@ -5,20 +5,23 @@ Hungarian language pack for Flarum forum software (and for its extensions).
 
 ## Informations
 The pack includes translated files for the core software and for the following extensions:
-- Akismet _(0.1.0 Beta 6)_
-- Approval  _(0.1.0 Beta 7)_
-- Flags _(0.1.0 Beta 7)_
-- Likes _(0.1.0 Beta 6)_
-- Lock _(0.1.0 Beta 7)_
-- Mentions _(0.1.0 Beta 7)_
-- Sticky _(0.1.0 Beta 7)_
-- Subscriptions _(0.1.0 Beta 6)_
-- Suspend _(0.1.0 Beta 7)_
-- Tags _(0.1.0 Beta 7)_
-- FaceBook Login _(0.1.0 Beta 6)_
-- GitHub Login _(0.1.0 Beta 6)_
-- Twitter Login _(0.1.0 Beta 6)_
-- Pusher _(0.1.0 Beta 6)_
+- Akismet
+- Approval
+- FaceBook Login
+- GitHub Login
+- Twitter Login
+- Emoji
+- Flags
+- Likes
+- Lock
+- Markdown
+- Mentions
+- Pusher
+- Statistics
+- Sticky
+- Subscriptions
+- Suspend
+- Tags
 
 ## Installation
 To install this language pack to your Flarum, you will need [Composer](https://getcomposer.org/). Run the following command in the location where your Flarum is installed:
