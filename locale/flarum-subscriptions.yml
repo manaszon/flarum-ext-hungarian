@@ -39,7 +39,7 @@ flarum-subscriptions:
       ignoring_button: Mellőzöm
       ignoring_text: Nincs értesítés. Téma elrejtése.
       not_following_button: Nem követem
-      not_following_text: "Értesítés csak elítésnél. @felhasznalonev."
+      not_following_text: "Értesítés csak említésnél. @felhasznalonev."
       notify_alert_tooltip: Új hozzászólás esetén fórum-értesítést kapsz.
       notify_email_tooltip: Új hozzászólás esetén értesítést kapsz emailben.
 
@@ -50,5 +50,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: Követés
-    following: Követések
+    following: Követve
     ignoring: Mellőzés

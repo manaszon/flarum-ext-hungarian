@@ -13,13 +13,17 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} felfüggesztett {timeReadable}"
+      user_unsuspended_text: "{username} feloldotta a felfüggesztésedet."
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Felfüggesztés határozatlan ideig
-      limited_time_label: Felfüggesztés meghatározott ideig...
+      indefinitely_label: Felfüggesztve határozatlan ideig
       limited_time_days_text: " napra"
-      not_suspended_label: Nincs felfüggesztés
+      limited_time_label: Felfüggesztve határozott ideig...
+      not_suspended_label: Nincs felfüggesztve
       status_heading: Felfüggesztés állapota
       submit_button: => core.ref.save_changes
       title: "{username} felfüggesztése"

@@ -9,7 +9,7 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: Téma kitűzése
+      sticky_discussions_label: Témák kitűzése
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -34,4 +34,4 @@ flarum-sticky:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    sticky: Kitűzött
+    sticky: Kitűzve

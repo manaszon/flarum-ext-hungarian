@@ -21,7 +21,7 @@ flarum-lock:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       lock_button: Táma lezárása
-      unlock_button: Téma kinyitása
+      unlock_button: Téma újranyítása
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -30,8 +30,8 @@ flarum-lock:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_locked_text: "{username} lezárta a témát."
-      discussion_unlocked_text: "{username} kinyitotta a témát."
+      discussion_unlocked_text: "{username} újranyitotta a témát."
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Valaki lezárta a nyitott témámat
+      notify_discussion_locked_label: Valaki lezárta a témámat

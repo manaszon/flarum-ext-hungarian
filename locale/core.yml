@@ -19,16 +19,19 @@ core:
       colored_header_label: Színes fejléc
       colors_heading: Színek
       colors_text: "Válassz két színt a fórumodhoz. Az első szín kiemeléseknél lesz használatban, míg a második a háttérelemek színét fogja megadni."
-      custom_header_heading: Egyéni fejléc
-      custom_header_text: "Adj meg HTML-t, amely az oldal tetején (a Flarum saját fejléce felett) fog megjelenni."
-      custom_styles_heading: Egyéni stílus
-      custom_styles_text: Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát.
+      custom_footer_heading: Egyéni fejléc
+      custom_footer_text: => core.ref.custom_footer_text
+      custom_header_heading: Egyéni lábléc
+      custom_header_text: => core.ref.custom_header_text
+      custom_styles_heading: Egyéni stylus
+      custom_styles_text: "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát."
       dark_mode_label: Sötét mód
       edit_css_button: Egyéni CSS szerkesztése
-      edit_header_button: Egyéni fejléc szerkesztése
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Kérlek adj meg egy hexadecimális színkódot.
       favicon_heading: Favicon
-      favicon_text: Tölts fel egy képet amelyet faviconként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép).
+      favicon_text: "Tölts fel egy képet amelyet faviconként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép)."
       logo_heading: Logo
       logo_text: Tölts fel egy képet amely a fórumcím helyett fog megjelenni.
       submit_button: => core.ref.save_changes
@@ -46,18 +49,12 @@ core:
       show_language_selector_label: Nyelv-választó mutatása
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Üdvözlő banner
-      welcome_banner_text: Szabd testre a szöveget amellyel köszönteni szeretnéd a látogatóidat az 'Összes téma' lapon.
+      welcome_banner_text: "Szabd testre a szöveget amellyel köszönteni szeretnéd a látogatóidat az 'Összes téma' lapon."
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Ezt a <strong>beta szoftvert</strong> elsősorban azért publikáltuk, hogy segítsetek a szoftver tesztelésében és a hibák keresésében. Használata nem ajánlatos éles projektben."
-      contributing_text: "Szeretnél hozzájárulni a Flarum fejlesztésében? Olvasd el a <a>Közreműködésről szóló dokumentációnkat</a>."
-      extension_text: "Érdekelt vagy a kiegészítők fejlesztésében? Olvasd el a <a>Kiegészítőkről szóló dokumentációnkat</a>."
-      features_text: "Ötleted van? Oszd meg velünk a <a>Features tag</a> alatt."
-      support_text: "Hibát találtál? Kérlek, jelentsd ezt felénk a fórumunkon a <a>Support tag</a> alatt."
-      troubleshooting_text: "Gondod van? Kövesd az utasításokat a <a>hibaelhárítási dokumentációban</a>."
-      version_text: "Köszönjük, hogy kipróbálod a Flarumot! A jelenlegi verzió: {version}."
-      welcome_text: "Üdvözlünk a Flarum Betaban!"
+      clear_cache_button: Cache törlése
+      tools_button: Eszközök
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -65,9 +62,15 @@ core:
       submit_button: => core.ref.save_changes
       title: Egyéni CSS szerkesztése
 
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Szín
+      color_label: => core.ref.color
       delete_button: Csoport törlése
       delete_confirmation: "Biztosan törölni szeretnéd ezt a csoportot? A csoport tagjai NEM lesznek törölve."
       icon_label: Ikon
@@ -80,9 +83,9 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Adj meg HTML-t, amely az oldal tetején (a Flarum saját fejléce felett) fog megjelenni."
+      customize_text: => core.ref.custom_header_text
       submit_button: => core.ref.save_changes
-      title: Egyéni fejléc szerkesztése
+      title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -97,7 +100,7 @@ core:
       port_label: Port
       server_heading: SMTP szerver
       submit_button: => core.ref.save_changes
-      text:  Állítsd be az SMTP szerver adatait, illetve a használni kívánt email-címet, amelyről a fórum az üzeneteket küldeni fogja.
+      text:  "Állítsd be az SMTP szerver adatait, illetve a használni kívánt email-címet, amelyről a fórum az üzeneteket küldeni fogja."
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
@@ -112,7 +115,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Kérlek, várj...
+      title: "Kérlek, várj..."
 
     # These translations are used in the navigation bar.
     nav:
@@ -121,7 +124,7 @@ core:
       basics_button: Alapok
       basics_text: "Itt állíthatod be az alapvető fórum-beállításokat: cím, nyelv, leírás."
       dashboard_button: Irányítópult
-      dashboard_text: Your forum at a glance.
+      dashboard_text: "A kis Flarum-fórumon."
       email_button: => core.ref.email
       email_text: "Itt tudod beállítani a fórumod email-beállításait."
       extensions_button: Kiegészítők
@@ -131,13 +134,14 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Átnevezés engedélyezése
       allow_post_editing_label: Posztok szerkesztésének engedélyezése
+      allow_renaming_label: Átnevezés engedélyezése
       create_heading: Létrehozás
       delete_discussions_forever_label: Téma végleges törlése
       delete_discussions_label: Téma törlése
       delete_posts_forever_label: Poszt végleges törlése
-      edit_and_delete_posts_label: Posztok szerkesztése és törlése
+      delete_posts_label: Posztok törlése
+      edit_posts_label: Posztok szerkesztése
       global_heading: Globális
       moderate_heading: Moderálás
       new_group_button: Új csoport
@@ -148,6 +152,7 @@ core:
       sign_up_label: Regisztráció
       start_discussions_label: Téma indítása
       view_discussions_label: Témák megtekintése
+      view_last_seen_at_label: Utolsó látogatás idejének megtekintése
       view_post_ips_label: IP-címek megtekintése
       view_user_list_label: Tagok listájának megtekintése
 
@@ -168,7 +173,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Eltávolítás
+      remove_button: => core.ref.remove
       upload_button: Válassz egy képet...
 
   # Translations in this namespace are used by the forum user interface.
@@ -176,8 +181,8 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       incorrect_password_message: A megadott jelszó hibás.
       submit_button: => core.ref.save_changes
@@ -185,7 +190,7 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Jelszó-visszaállító email újraküldése
+      send_button: "Jelszó-visszaállító email újraküldése"
       text: Kattints a lenti gombra a jelszócseréhez szükséges email elküldéséhez.
       title: => core.ref.change_password
 
@@ -195,6 +200,7 @@ core:
       exit_full_screen_tooltip: Kilépés a teljes képernyős módból
       full_screen_tooltip: Teljes képernyő
       minimize_tooltip: Minimalizálás
+      preview_tooltip: Előnézet
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -225,7 +231,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Biztosan törölni szeretnéd ezt a témát?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Jelentkezz be, ha válaszolni szeretnél!
+      log_in_to_reply_button: "Jelentkezz be, ha válaszolni szeretnél!"
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -259,7 +265,7 @@ core:
       email_sent_message:  Elküldtünk egy emailt amellyel visszaállíthatod a jelszavadat. (Ha nem érkezik meg pár percen belül az email, akkor nézd meg a spam mappát is.)
       not_found_message: Nincs felhasználónk ilyen email-címmel.
       submit_button: Jelszó visszaszerzése
-      text:  Add meg az email-címedet és mi el fogjuk küldeni Neked a jelszó-visszaállításhoz szükséges emailt.
+      text:  "Add meg az email-címedet és mi el fogjuk küldeni Neked a jelszó-visszaállításhoz szükséges emailt."
       title: Elfelejtettem a jelszavam
 
     # These translations are used in the header and session dropdown menu.
@@ -339,14 +345,14 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Téma átnevezése
       submit_button: => core.ref.rename
+      title: Téma átnevezése
 
     # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: 'Keresés az összes témában: "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Felhasználók
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -357,14 +363,14 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Valaki átnevezte a nyitott témámat
-      privacy_disclose_online_label: Láthatóság engedélyezése (lássák a többiek, ha online vagyok)
+      privacy_disclose_online_label: "Láthatóság engedélyezése (lássák a többiek, ha online vagyok)"
       privacy_heading: Privát
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "Már regisztráltál? <a>Jelentkezz be!</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -374,29 +380,29 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Eltávolítás
+      avatar_remove_button: => core.ref.remove
       avatar_upload_button: Feltöltés
       avatar_upload_tooltip: Új avatar feltöltése
-      bio_placeholder: Írj valamit magadról...
       discussions_link: => core.ref.discussions
       in_discussion_text: "Itt: {discussion}"
-      joined_date_text: "Csatlakozott {ago}"
+      joined_date_text: "Csatlakozott: {ago}"
       online_text: Online
+      posts_empty_text: "Úgy tűnik, hogy itt nincs egy poszt sem."
+      posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posztok
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
       button: Vezérlőpult
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "Biztosan törölni szeretnéd ezt a felhasználói fiókot? A felhasználó összes posztja törlődni fog."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
+      resend_button: "Megerősítő e-mail újraküldése"
       sent_message: Elküldve
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -406,13 +412,9 @@ core:
     badge:
       hidden_tooltip: Rejtett
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[törölve]"
-
     # These translations are displayed as error messages.
     error:
-      generic_message: "Hoppá! Valami hiba történt. Frissítsd az oldalt."
+      generic_message: "Hoppá! Valami hiba történt. Kérlek, frissítsd az oldalt."
       not_found_message: A kért erőforrás nem található.
       permission_denied_message: Nem rendelkezel megfelelő jogokkal ehhez.
       rate_limit_exceeded_message: Hűű, picit túl gyors vagy! Próbáld meg picit később.
@@ -425,8 +427,12 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, és {third}"
+      three_text: "{first}, {second} és {third}"
       two_text: "{first} és {second}"
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[törölve]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -435,20 +441,35 @@ core:
     content:
       javascript_disabled_message: A legjobb élményhez egy modern böngésző szükséges engedélyezett JavaScript-tel..
       load_error_message: Valami félresikerült az oldal betöltése közben.
-      loading_text: Betöltése...
+      loading_text: Betöltés...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Előző oldal
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      403_message: Nem rendelkezel megfelelő jogokkal az oldal megtekintéséhez.
+      404_message: A keresett oldal nem található.
+      404_return_link: "Visszatérés a {forum} oldalra."
+      500_message: Egy hiba lépett fel az oldal betöltése közben.
+      503_message: "{forum} fejlesztés alatt áll. Köszönjük a türelmedet!"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Biztosan ki szeretnél jelentkezni?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
+    reset_password:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
       submit_button: Jelszó visszaállítása
@@ -476,7 +497,7 @@ core:
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Új email-cím megerősítése
+      subject: "Új e-mail cím megerősítése"
       body: |
         Helló, {username}!
 
@@ -498,7 +519,7 @@ core:
         Ha Te voltál az, akkor csak kattints az alábbi linkre és visszaállítjuk a jelszavadat:
         {url}
 
-        Ha mégsem szeretnéd a jelszavadat megváltoztatni, akkor csak ahgyd figyelmen kívül ezt a levelet.
+        Ha mégsem szeretnéd a jelszavadat megváltoztatni, akkor csak ahgyd figyelmen kívül ezt a levelet.n.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -509,8 +530,13 @@ core:
     all_discussions: Összes téma
     change_email: E-mail cseréje
     change_password: Jelszó cseréje
-    confirm_password: Jelszó megerősítése
+    color: Szín                                 # Referenced by flarum-tags.yml
+    confirm_password: Jelkszó megerősítése
     confirmation_email_sent: "Elküldtük a megerősítő emailt a {email} címre. Ha nem érkezik meg hamarosan, akkor ellenőrizd a spam mappát is."
+    custom_footer_text: "Adj meg HTML-t, amely az oldal alján fog megjelenni."
+    custom_footer_title: Egyéni lábléc szerkesztése
+    custom_header_text: "Adj meg HTML-t, amely az oldal tetején (a Flarum saját fejléce felett) fog megjelenni."
+    custom_header_title: Egyéni fejléc szerkesztése
     delete: Törlés
     delete_forever: Végleges törlés
     discussions: Témák
@@ -522,8 +548,11 @@ core:
     mark_all_as_read: Összes olvasottnak jelölése
     next_page: Következő oldal
     notifications: Értesítések
-    okay: OK                                         # Referenced by flarum-tags.yml
+    okay: OK                                     # Referenced by flarum-tags.yml
     password: Jelszó
+    posts: Posztok                                 # Referenced by flarum-statistics.yml
+    previous_page: Előző oldal
+    remove: Eltávolítás
     rename: Átnevezés
     reply: Válasz                                    # Referenced by flarum-mentions.yml
     reset_your_password: Jelszó visszaállítása
@@ -534,8 +563,9 @@ core:
     some_others: "{count} további|{count} további"   # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Új téma indítása
     username: Felhasználónév
+    users: Felhasználók                                 # Referenced by flarum-statistics.yml
     write_a_reply: Válasz írása...
-    you: Te                                          # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Te                                      # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.

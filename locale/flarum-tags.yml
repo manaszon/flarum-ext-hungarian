@@ -13,7 +13,7 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Szín
+      color_label: => core.ref.color
       delete_tag_button: Tag törlése
       delete_tag_confirmation: "Biztosan törölni szeretnéd ezt a taget? A témák amelyek használták ezt a taget NEM fognak törlődni."
       description_label: Leírás
@@ -27,12 +27,12 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Itt tudod kezelni a tageket, hogy átlátható és strukturáltak legyenek a témák.
+      tags_text: Itt tudod kezelni a tageket, hogy átláthatóak és strukturáltak legyenek a témák.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Tagek szerkesztése
-      restrict_by_tag_heading: Korlátozás tag által
+      allow_edit_tags_label: Tagek szerkesztésének engedélyezése
+      restrict_by_tag_heading: Korlátozás téma által
       tag_discussions_label: Témák tagelése
 
     # These translations are used in the Tag Settings modal dialog.
@@ -71,6 +71,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Tagek szerkesztése
 
+    header:
+      back_to_tags_tooltip: Vissza a tagekhez
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Több...
@@ -79,8 +82,8 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} hozzáadta a {tagsAdded}."
       added_and_removed_tags_text: "{username} hozzáadta a {tagsAdded} és eltávolította a {tagsRemoved}."
+      added_tags_text: "{username} hozzáadta a {tagsAdded}."
       removed_tags_text: "{username} eltávolította a {tagsRemoved}."
       tags_text: "{tags} taget|{tags} tageket"
 

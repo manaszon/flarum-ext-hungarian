@@ -9,8 +9,8 @@ flarum-auth-github:
 
     # These translations are used in the GitHub Settings modal dialog.
     github_settings:
-      client_id_label: Cliens azonosító (ID)
-      client_secret_label: Kliens secret-kulcsa
+      client_id_label: "Kliens azonosító (ID)"
+      client_secret_label: "Kliens titkos-kulcsa"
       title: GitHub beállítások
 
   # Translations in this namespace are used by the forum user interface.
