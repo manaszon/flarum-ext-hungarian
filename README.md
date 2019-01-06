@@ -1,7 +1,8 @@
 # Hungarian Language Pack for Flarum
 ![Flarum Logo with flag](https://i.cubeupload.com/3ocEzz.png)
 
-Hungarian language pack for Flarum forum software (and for its extensions).
+Hungarian language pack for Flarum forum software (and for its extensions).  
+_NOTE: If you want to use this language pack with Flarum 0.1.0 Beta 7, then download the [v1.0b](https://github.com/manaszon/flarum-ext-hungarian/releases/tag/v1.0b) release._
 
 ## Informations
 The pack includes translated files for the core software and for the following extensions:
