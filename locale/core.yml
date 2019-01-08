@@ -198,7 +198,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Válaszolok...
+      body_placeholder: Téma leírása...
       discard_confirmation: "Nem hoztad létre a témádat. El szeretnéd vetni az eddig megírtakat?"
       submit_button: Téma elküldése
       title: => core.ref.start_a_discussion
