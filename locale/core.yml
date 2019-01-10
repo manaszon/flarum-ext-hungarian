@@ -23,7 +23,7 @@ core:
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Egyéni lábléc
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Egyéni stylus
+      custom_styles_heading: Egyéni stílus
       custom_styles_text: "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát."
       dark_mode_label: Sötét mód
       edit_css_button: Egyéni CSS szerkesztése
@@ -74,7 +74,7 @@ core:
       delete_button: Csoport törlése
       delete_confirmation: "Biztosan törölni szeretnéd ezt a csoportot? A csoport tagjai NEM lesznek törölve."
       icon_label: Ikon
-      icon_text: "Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fa-</code> prefix <em>nélkül</em>."
+      icon_text: "Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fas fa-</code> prefix <em>hozzáadásával</em>."
       name_label: Név
       plural_placeholder: Többesszám (pl.":" Moderátorok)
       singular_placeholder: Egyesszám (pl.":" Moderátor)
