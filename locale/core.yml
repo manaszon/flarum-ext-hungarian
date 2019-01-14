@@ -19,9 +19,9 @@ core:
       colored_header_label: Színes fejléc
       colors_heading: Színek
       colors_text: "Válassz két színt a fórumodhoz. Az első szín kiemeléseknél lesz használatban, míg a második a háttérelemek színét fogja megadni."
-      custom_footer_heading: Egyéni fejléc
+      custom_footer_heading: Egyéni lábléc
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Egyéni lábléc
+      custom_header_heading: Egyéni fejléc
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Egyéni stílus
       custom_styles_text: "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát."
@@ -124,7 +124,7 @@ core:
       basics_button: Alapok
       basics_text: "Itt állíthatod be az alapvető fórum-beállításokat: cím, nyelv, leírás."
       dashboard_button: Irányítópult
-      dashboard_text: "A kis Flarum-fórumon."
+      dashboard_text: "A kis Flarum-fórumod."
       email_button: => core.ref.email
       email_text: "Itt tudod beállítani a fórumod email-beállításait."
       extensions_button: Kiegészítők
